@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+    <link rel="stylesheet" href="estilo.css">
+    <title> FARMACOS CHIDOS</title>
+    
+</head>
+<body>
+    <div class="contenedor-header">
+        <header class="header">
+            <a href="#" class="logo">
+                <i class="fas fa-heart"></i>FARMACIAS LÓPEZ
+            </a>
+            <h1>FARMACIAS <span class="txtRojo">LÓPEZ</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#galeria" onclick="seleccionar()">Galeria</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com"><i  class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/home?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                    <h2>PRECIOS <span class="txtRojo">BAJOS</span></h2>
+                    <P></P>
+                    <a href="nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    
+                </div>
+                <div class="opcion">
+                    
+                </div>
+                <div class="opcion">
+                    
+                </div>
+                <div class="opcion">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/e6.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">¿QUIENES SOMOS?</span>
+                        <H2>NOSOTROS</H2>
+                    </div>
+                </div>
+                <p class="p-especial">Una pequeña empresa que brinda productos farmacos al alcance de todos </p>
+                <p>DESDE 2017</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">SIEMPRE A </span>TU SERVICIO
+                </span>
+                <h2> <span class="txtRojo"></span> </h2>
+            </div>
+            <div class="col2"></div>
+            <button>PASS</button>
+        </div>
+    </section>
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="contenido-servicios">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase"></span>
+                            <H2>SERVICIOS</H2>
+                        </div>
+                    </div>
+                    <p class="p-especial">En farmacias lópez contamos con variedad de farmacos,suplementos y productos de belleza y skincare</p>
+                </div>
+                <div class="col">
+                    <img src="img/Musculoso.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3><span class="txtRojo">salud</span> cardiaca</h3>
+                        <p>en nuestras sucursales contamos con el servicio de medir precion y azucar a adultos mayores</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3><span class="txtRojo">suplementos</span> de fitnes</h3>
+                        <p>Encontraras variedad de suplementos como proteinas,creatina entre otros</p>
+                    </td>
+                    <td>
+                        <i class="fa-circle-arrow-left"></i>
+                        <h3><span class="txtRojo">productos de</span> drogueria</h3>
+                        <p>contamos con productos de la linea drogueria como borax,oxido de zinc sustos de olor entre otros</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span class="txtRojo">disponibilidad</span> de tiempo</h3>
+                        <p>abrimos de 9 de la mañana a 9 de la noche siempre con atencion al cliente </p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3><span class="txtRojo">ahorro</span> </h3>
+                        <p>tenemos productos de clidad y a precios bajos aportados de nuestros proovedores</p>
+                    </td>
+                    <td>
+                        <i class="fa-heart"></i>
+                        <h3><span class="txtRojo">belleza </span> y salud</h3>
+                        <p>contamos con productos de belleza como skincare y jabones faciales</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- GALERIA -->
+    <section id="galeria" class="galeria">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="img/IZQUIERDA12.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="producto-content">
+                    <div class="producto-txt">
+                        <span>01</span>
+                        <h3>Fitness</h3>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="productos-img">
+                        <img src="img/" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1"></a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="img/" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="producto-content">
+                    <div class="producto-txt">
+                        <span>02</span>
+                        <h3></h3>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="productos-img">
+                        <img src="img/e4.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">PROBAR</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="img/" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="producto-content">
+                    <div class="producto-txt">
+                        <span>03</span>
+                        <h3></h3>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="productos-img">
+                        <img src="img/e5.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">PROBAR</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="img/" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="producto-content">
+                    <div class="producto-txt">
+                        <span>04</span>
+                        <h3></h3>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="productos-img">
+                        <img src="img/" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1"></a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="img/" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="producto-content">
+                    <div class="producto-txt">
+                        <span>05</span>
+                        <h3></h3>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="productos-img">
+                        <img src="img/a7.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1"></a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="img/IZQUIERDA12.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="producto-content">
+                    <div class="producto-txt">
+                        <span>06</span>
+                        <h3></h3>
+                        <p>
+                            
+                        </p>
+                    </div>
+                    <div class="productos-img">
+                        <img src="img/a8.png" alt="">
+                    </div>
+                </div>
+                <a href="#" class="btn-1">PROBAR</a>
+            </div>
+        </section>
+
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect:{
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                
+            }
+
+
+        } )
+    </script>
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase"<>
+                
+                    <H2>CONTACTANOS</H2>
+                </div>
+            </div>
+            <div class="fila">
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i> Avenida independencia calle s/n santo
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i> 55-33-68-14-78
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i> Lunes a Domingo de, 9:00am - 9:00pm
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="info">
+            <p> <span class="txtRojo"></p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
